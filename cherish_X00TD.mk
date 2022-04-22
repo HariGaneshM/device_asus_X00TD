@@ -34,6 +34,10 @@ PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Max Pro M1
 PRODUCT_MANUFACTURER := Asus
 
+#Cherish maintainer
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=HariGanesh
+
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
